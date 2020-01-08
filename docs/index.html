@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Maknold - Chatroom</title>
+
+    <!--js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!--CSS styles-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="inner-wrapper">
+            <div class="card">
+                <p class="title">Welcome to</p>
+                <h1>Maknold chatroom</h1>
+                <h5>What's your nickname?</h5>
+                <input autofocus id="handle" type="text" maxlength="14" />
+                <p>Your nickname will act as your user handle in the chatroom.</p>
+                <p><button id="next">Next</button></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Js scripts-->
+    <script src="handle.js"></script>
+
+</body>
+
+</html>

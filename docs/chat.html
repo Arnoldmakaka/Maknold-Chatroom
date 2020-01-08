@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Maknold - Chatroom</title>
+
+    <!--js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!--CSS styles-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="inner-wrapper">
+            <div id="chat-box">
+                <h2>Maknold <strong>chatroom</strong></h2>
+                <div id="chat-window">
+                    <div id="welcomeMessage"></div>
+                    <ul id="inner-chat"></ul>
+                </div>
+                <div id="lowertab">
+                    <div class="myinput">
+                        <input onfocus="this.value=''" id="message" maxlength="144" placeholder="Your Message..."/>
+                    </div>
+                    <div class="mybutton">
+                        <button id="send" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Js scripts-->
+    <script src="chatroom.js"></script>
+
+</body>
+
+</html>
