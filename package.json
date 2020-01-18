@@ -4,7 +4,11 @@
   "description": "Maknold chatroom uses socket.IO to enable real-time, bidirectional and event-based communication.",
   "main": "index.js",
   "scripts": {
+    "build": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.14.1"
   },
   "keywords": [
     "Socket.IO",
